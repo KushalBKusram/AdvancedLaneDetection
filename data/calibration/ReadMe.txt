@@ -1,0 +1,1 @@
+Paste at least 20 images from different angles of a chessboard

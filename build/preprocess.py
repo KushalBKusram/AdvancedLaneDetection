@@ -9,7 +9,7 @@ def warp(image):
     h = image.shape[0]
 
     src = np.float32([[200, 460], [1150, 460], [436, 220], [913, 220]])
-    dst = np.float32([[300, 720], [1000, 720], [250, 0], [1050, 0]])
+    dst = np.float32([[300, 720], [1000, 720], [400, 0], [1200, 0]])
 
     M = cv2.getPerspectiveTransform(src, dst)
     invM = cv2.getPerspectiveTransform(dst, src)

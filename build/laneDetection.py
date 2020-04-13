@@ -69,7 +69,6 @@ def find_lane_pixels(image):
 
     return leftx, lefty, rightx, righty, out_img
 
-
 # Fit a poly to perform a directed search in well known areas
 def fit_poly(img_shape, leftx, lefty, rightx, righty):
     # Fit a second order polynomial to each with np.polyfit()

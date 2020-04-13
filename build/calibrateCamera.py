@@ -1,8 +1,10 @@
 import cv2
-import numpy as np
 import glob
+import numpy as np
+import matplotlib.pyplot as plt
 
 def pointExtractor(fname):
+    #number of boxes in the chessboard
     objp = np.zeros((6 * 9, 3), np.float32)
     objp[:, :2] = np.mgrid[0:9, 0:6].T.reshape(-1, 2)
 
@@ -22,22 +24,10 @@ def pointExtractor(fname):
             imgpoints.append(corners)
     return objpoints, imgpoints
 
-#Insert atleast 20 images
-fname = '*.jpg'
-objpoints, imgpoints = pointExtractor(fname)
+def cameraCalibrator(objpoints, imgpoints, image):
 
-def cameraCalibrator(image):
     imgRes = (image.shape[0], image.shape[1])
-
     ret, mtx, dist, rvecs, tvecs = cv2.calibrateCamera(objpoints, imgpoints, imgRes, None, None)
     undistorted = cv2.undistort(image, mtx, dist, None, mtx)
 
     return undistorted
-
-calibrationTest = cv2.imread('camera_cal/calibration1.jpg')
-plt.subplot(1,2,1)
-plt.imshow(calibrationTest)
-
-undistortedImage = cameraCalibrator(calibrationTest)
-plt.subplot(1,2,2)
-plt.imshow(undistortedImage)
