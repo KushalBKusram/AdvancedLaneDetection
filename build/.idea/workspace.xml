@@ -34,9 +34,6 @@
       <module name="build" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -95,25 +92,21 @@
       <screen x="0" y="0" width="1920" height="1170" />
     </state>
     <state x="849" y="278" key="FileChooserDialogImpl/0.0.1920.1170@0.0.1920.1170" timestamp="1586813094887" />
-    <state width="936" height="283" key="GridCell.Tab.0.bottom" timestamp="1586881032219">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="936" height="325" key="GridCell.Tab.0.bottom" timestamp="1586817303292">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1586881032219" />
     <state width="936" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1170@0.0.1920.1170" timestamp="1586817303292" />
-    <state width="936" height="283" key="GridCell.Tab.0.center" timestamp="1586881032219">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="936" height="325" key="GridCell.Tab.0.center" timestamp="1586817303292">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1586881032219" />
     <state width="936" height="325" key="GridCell.Tab.0.center/0.0.1920.1170@0.0.1920.1170" timestamp="1586817303292" />
-    <state width="936" height="283" key="GridCell.Tab.0.left" timestamp="1586881032219">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="936" height="325" key="GridCell.Tab.0.left" timestamp="1586817303292">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1586881032219" />
     <state width="936" height="325" key="GridCell.Tab.0.left/0.0.1920.1170@0.0.1920.1170" timestamp="1586817303292" />
-    <state width="936" height="283" key="GridCell.Tab.0.right" timestamp="1586881032219">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="936" height="325" key="GridCell.Tab.0.right" timestamp="1586817303292">
+      <screen x="0" y="0" width="1920" height="1170" />
     </state>
-    <state width="936" height="283" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1586881032219" />
     <state width="936" height="325" key="GridCell.Tab.0.right/0.0.1920.1170@0.0.1920.1170" timestamp="1586817303292" />
     <state x="842" y="189" key="SettingsEditor" timestamp="1586813081081">
       <screen x="0" y="0" width="1920" height="1170" />
