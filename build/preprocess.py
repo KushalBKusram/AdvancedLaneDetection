@@ -8,8 +8,8 @@ def warp(image):
     w = image.shape[1]
     h = image.shape[0]
 
-    src = np.float32([[200, 460], [1150, 460], [436, 220], [913, 220]])
-    dst = np.float32([[300, 720], [1000, 720], [400, 0], [1200, 0]])
+    src = np.float32([[290, 425], [1225, 425], [675, 190], [860, 190]])
+    dst = np.float32([[425, 720], [900, 720], [440, 0], [890, 0]])
 
     M = cv2.getPerspectiveTransform(src, dst)
     invM = cv2.getPerspectiveTransform(dst, src)
@@ -19,7 +19,7 @@ def warp(image):
     return warped, invM
 
 def threshold(image):
-    ret, image = cv2.threshold(image, 220, 225, cv2.THRESH_BINARY)
+    ret, image = cv2.threshold(image, 230, 255, cv2.THRESH_BINARY)
     if(ret == False):
         print('Error in thresholding')
     else:
