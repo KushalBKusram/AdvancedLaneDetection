@@ -19,5 +19,4 @@ Python 3 and above, OpenCV 3 or above, NumPy, Matplotlib and MoviePy
 4. You are free to try my pipeline on your own clips, , if you want to try on your clips then make sure to change the file name with your data in **data** directory.
 
 ### License
-© Kushal B Kusram</br>
 Licensed under the [MIT License](https://github.com/KushalBKusram/AdvancedLaneDetection/blob/master/LICENSE).
