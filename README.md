@@ -16,7 +16,7 @@ Python 3 and above, OpenCV 3 or above, NumPy, Matplotlib and MoviePy
 1. Clone the repository.
 2. Open the **build** directory in your preferred IDE and begin with main.py
 3. Proceed to run.
-4. You are free to try my pipeline on your own clips, , if you want to try on your clips then make sure to change the file name with your data in **data** directory.
+4. You are free to try my pipeline on your own clips, if you want to try on your clips then make sure to change the file name with your data in **data** directory.
 
 ## License
 Licensed under the [MIT License](https://github.com/KushalBKusram/AdvancedLaneDetection/blob/master/LICENSE).
