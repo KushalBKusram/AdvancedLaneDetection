@@ -5,7 +5,7 @@ Advanced Lane Detection is a Python program to detect lanes and highlight the la
 
 ## Documentation
 ### Project Directory
-**build:** The main project directory. The heart of this program lies in laneDetection.py, supporting functions are present in preprocess.py and calibrateCamera.py. <br/>
+**src:** The main project directory. The heart of this program lies in laneDetection.py, supporting functions are present in preprocess.py and calibrateCamera.py. <br/>
 **data:** Sample data for you to experiment, make sure to replace corresponding file names in main.py with new ones if you are going to use a new footage from your car to detect lanes. <br/>
 **data/calibration:** A directory to store chessboard images clicked using the camera you are going to use to collect data.
 
@@ -14,7 +14,7 @@ Python 3 and above, OpenCV 3 or above, NumPy, Matplotlib and MoviePy
 
 ## Usage
 1. Clone the repository.
-2. Open the **build** directory in your preferred IDE and begin with main.py
+2. Open the **src** directory in your preferred IDE and begin with main.py
 3. Proceed to run.
 4. You are free to try my pipeline on your own clips, if you want to try on your clips then make sure to change the file name with your data in **data** directory.
 
